@@ -218,57 +218,55 @@ input[type=submit] {
 
 /* Max width of most desktops */
 @media only screen and (max-width:980px) {
+  .headerContent {
+    width: 100%; 
+  }
+
+  .name {
+    width: 100%;
+    float: none;
+  }
+
+  .page {
+    width: 100%;
+  }
+
+  header {
+    height: 110px; 
+  }
  
+  .nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
 
-}
+  .content h1 {
+    text-align: center; 
+  }
 
-/* Max width of most tablets */
-@media only screen and (min-width 641px) and (max-width:768px) {
-  #masthead {
-    
+  img {
+    display: block;
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 5px; 
+  }
+
+  #p1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  hr {
+    display: none; 
+  }
+  .content {
+    margin-top: 15px; 
   }
   
-  .main-section {
-    width: 87%;
-    margin-left: 6%;  
-    margin-bottom: 80%;  
-  }
-  #masthead {
-    padding-right: 3%;
-  }
-  .auth-image {
-    width: 50%;
-  }
-}
-  .work img {
-    width: 80%; 
-  }
+/* Max width of most tablets */
+@media only screen and (max-width:768px) {
 
-  h1 {
-    font-size: 1.5em; 
-  }
-  .work h3 {
-    font-size: 1em; 
-    padding: 0.25em;
-    width: 80%; 
-  }
-
-  nav {
-    float: right; 
-    display: inline-block;
-    margin-top: 2%;
-    margin-right: 3%;
-  }
-
-  #logo {
-    width: 30%; 
-  }
-
-/* Max width of most smartphones */
-@media only screen and (max-width:640px) {
-  #masthead {
-    position: static;
-  }
   .main-section {
     width: 87%;
     margin-left: 8%;  
@@ -284,7 +282,6 @@ input[type=submit] {
     width: 90%;
    
   }
-}
   .work img {
     width: 80%; 
   }
@@ -308,3 +305,69 @@ input[type=submit] {
     width: 103%; 
   }
 
+  .work img {
+    width: 100%; 
+    float: center; 
+  }
+
+  .work h3 {
+    font-size: 1em; 
+    padding: 0.25em;
+    width: 100%; 
+  }
+
+}
+
+/* Max width of most smartphones */
+@media only screen and (max-width:640px) {
+  #masthead {
+    position: static;
+  }
+  .main-section {
+    width: 87%;
+    margin-left: 8%;  
+    margin-bottom: 10%; 
+    margin-top: -20%;  
+    margin-right: auto;
+  
+  }
+  #masthead {
+    padding-right: 3%;
+  }
+  .auth-image {
+    width: 90%;
+   
+  }
+  .work img {
+    width: 80%; 
+  }
+
+  h1 {
+    font-size: 1.5em; 
+  }
+  .work h3 {
+    font-size: 1em; 
+    padding: 0.25em;
+    width: 80%; 
+  }
+
+  nav {
+    margin-top: 3%;
+    margin-right: 25%; 
+    
+  }
+
+  #logo {
+    width: 103%; 
+  }
+
+  .work img {
+    width: 100%; 
+    float: center; 
+  }
+
+  .work h3 {
+    font-size: 1em; 
+    padding: 0.25em;
+    width: 100%; 
+  }
