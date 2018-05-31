@@ -277,6 +277,7 @@ input[type=submit] {
   }
   #masthead {
     padding-right: 3%;
+    height: 150px;
   }
   .auth-image {
     width: 90%;
@@ -322,6 +323,9 @@ input[type=submit] {
 @media only screen and (max-width:640px) {
   #masthead {
     position: static;
+    height: 150px; 
+    padding-right: 3%;
+  }
   }
   .main-section {
     width: 87%;
@@ -329,10 +333,6 @@ input[type=submit] {
     margin-bottom: 10%; 
     margin-top: -20%;  
     margin-right: auto;
-  
-  }
-  #masthead {
-    padding-right: 3%;
   }
   .auth-image {
     width: 90%;
@@ -371,3 +371,4 @@ input[type=submit] {
     padding: 0.25em;
     width: 100%; 
   }
+}
